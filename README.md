@@ -6,7 +6,7 @@ DrugLM is a medication safety assistant project, providing an intelligent system
 
 - **Small Language Model (SLM) Integration**: Powered by a locally hosted model trained through knowledge distillation from larger LLM responses, ensuring high accuracy on complex medical queries.
 - **RAG Architecture**: Employs a Retrieval-Augmented Generation (RAG) pipeline to cross-reference natural language queries with a comprehensive, fast-retrieval drug interaction database.
-- **Optimized Inference**: By shifting from external LLM APIs (like DeepSeek APIs) to a locally hosted SLM, DrugLM achieves reduced operational costs and improved response times suitable for real-time applications.
+- **Optimized Inference**: By shifting from external LLM APIs to a locally hosted SLM, DrugLM achieves reduced operational costs and improved response times suitable for real-time applications.
 - **Drug Entity Extraction**: Automatically extracts drug names from user queries using sophisticated pattern matching and entity recognition.
 - **Interaction Retrieval**: Searches backend DDI datasets to find known interactions between extracted drugs before passing context to the model.
 
