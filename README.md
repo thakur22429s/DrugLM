@@ -1,6 +1,6 @@
 # DrugLM - Medication Safety Assistant
 
-DrugLM is a medication safety assistant project developed at Rutgers University (NLP course), providing an intelligent system for detecting and analyzing drug-drug interactions (DDIs). The solution leverages knowledge distillation to power a local Small Language Model (SLM), engineered to achieve near-LLM accuracy while delivering significantly faster and lower-cost inferences.
+DrugLM is a medication safety assistant project, providing an intelligent system for detecting and analyzing drug-drug interactions (DDIs). The solution leverages knowledge distillation to power a local Small Language Model (SLM), engineered to achieve near-LLM accuracy while delivering significantly faster and lower-cost inferences.
 
 ## Key Features
 
